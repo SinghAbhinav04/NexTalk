@@ -136,10 +136,10 @@ function Homepage(){
                 ) : showChatbot ? (
                     <ChatBot setShowChatbot={setShowChatbot} />
                 ) : (
-                    <div>
-                    <div>NexTalk</div>
-                    <div>Chatting app for next generation</div>
-                    </div>
+                    <div className='nextalk-default'>
+                    <div className="nexTalk-title"><span className='N'>N</span>ex<span className='T'>T</span>alk</div>
+                    <div className="nexTalk-subtitle">Chatting app for the <span className='N'>N</span>ex<span className='T'>T</span> generation</div>
+                    </div>                  
                 )}
             </div>
         </div>

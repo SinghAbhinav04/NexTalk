@@ -9,13 +9,13 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh; 
-  background-color: #1B2439;
+  background-color: #161616; /* Lighter than black background */
   overflow: hidden; /* Prevent container from scrolling */
 }
 
 .chat-box-profile {
   padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: #3E3E3E; /* Greyish background */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
@@ -31,7 +31,6 @@ html, body {
   object-fit: cover;
 }
 
-
 .chat-options {
   margin-left: auto;
   position: relative; 
@@ -39,7 +38,7 @@ html, body {
 }
 
 .chat-options-popup {
-  max-height: 35px;
+  height: 50px;
   position: absolute;
   top: 100%;
   right: 0;
@@ -51,12 +50,12 @@ html, body {
   z-index: 1000;
   border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
+  flex-direction: column;
 }
 
 .more-vert-icon {
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
-
 }
 
 .messages {
@@ -105,6 +104,7 @@ html, body {
   line-height: 1.4;
   position: relative;
   animation: messageAppear 0.3s ease;
+  color: #FFFFFF; /* Whitish text */
 }
 
 @keyframes messageAppear {
@@ -119,17 +119,15 @@ html, body {
 }
 
 .message.sent {
-  background: linear-gradient(135deg, #FF5291 0%, #FF3986 100%);
+  background: linear-gradient(135deg, #FF8C42 0%, #FF7133 100%); /* Orangeish gradient */
   margin-left: auto;
   border-bottom-right-radius: 4px;
-  color: white;
 }
 
 .message.received {
-  background: rgba(255, 255, 255, 0.05);
+  background: #3E3E3E; /* Greyish background */
   margin-right: auto;
   border-bottom-left-radius: 4px;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .message-content {
@@ -146,7 +144,7 @@ html, body {
 
 .input-field {
   padding: 1.2rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: #3E3E3E; /* Greyish background */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   gap: 1rem;
@@ -163,7 +161,7 @@ html, body {
 }
 
 .emoji-icon:hover {
-  color: #FF4D7D;
+  color: #FF8C42; /* Orangeish hover */
 }
 
 .input-field input {
@@ -179,7 +177,7 @@ html, body {
 
 .input-field input:focus {
   outline: none;
-  border-color: #FF4D7D;
+  border-color: #FF8C42;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -188,7 +186,7 @@ html, body {
   height: 45px;
   border-radius: 50%;
   border: none;
-  background: linear-gradient(135deg, #FF5291 0%, #FF3986 100%);
+  background: linear-gradient(135deg, #FF8C42 0%, #FF7133 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -210,7 +208,7 @@ html, body {
 }
 
 .emoji-picker {
-  background-color: #1B2439 !important;
+  background-color: #161616 !important; /* Lighter than black */
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
   border-radius: 12px !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
@@ -257,4 +255,3 @@ html, body {
       left: 10px;
   }
 }
-

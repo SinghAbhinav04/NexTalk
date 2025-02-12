@@ -1,8 +1,10 @@
+/* Updated CSS with the new color scheme */
+
 .chat-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #1B2439;
+    background-color: #1A1A1A; /* Blackish background */
     position: relative;
     overflow: hidden; /* Ensures content doesn't spill out */
 }
@@ -21,11 +23,11 @@
 }
 
 .chat-messages::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05); /* Greyish scrollbar track */
 }
 
 .chat-messages::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); /* Greyish scrollbar thumb */
     border-radius: 3px;
 }
 
@@ -43,13 +45,14 @@
 .bot-icon {
     width: 35px;
     height: 35px;
-    background-color: #FF4D7D;
+    background-color: #3E3E3E; /* Greyish background */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.8rem;
     font-weight: bold;
+    color: #FFA366; /* Orangeish icon color */
 }
 
 .message {
@@ -57,16 +60,17 @@
     border-radius: 16px;
     max-width: 70%;
     line-height: 1.4;
+    color: #FFFFFF; /* Whitish text */
 }
 
 .user-message {
-    background: linear-gradient(135deg, #FF5291 0%, #FF3986 100%);
+    background: linear-gradient(135deg, #FF8C42 0%, #FF7133 100%); /* Orangeish gradient */
     margin-left: auto;
     border-bottom-right-radius: 4px;
 }
 
 .bot-message {
-    background: linear-gradient(135deg, #2C3249 0%, #1B2439 100%);
+    background: #3E3E3E; /* Greyish background */
     border-bottom-left-radius: 4px;
 }
 
@@ -74,7 +78,7 @@
     padding: 1.2rem;
     display: flex;
     gap: 1rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #3E3E3E; /* Greyish background */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -83,8 +87,8 @@
     padding: 0.8rem 1.2rem;
     border-radius: 24px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Greyish input background */
+    color: #FFFFFF; /* Whitish text */
     font-size: 0.95rem;
     transition: all 0.3s ease;
 }
@@ -99,7 +103,7 @@
     height: 45px;
     border-radius: 50%;
     border: none;
-    background-color: #FF4D7D;
+    background-color: #FF7133; /* Orangeish button background */
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
@@ -111,7 +115,7 @@
 
 .chat-input button:hover {
     transform: scale(1.05);
-    background-color: #ff3567;
+    background-color: #FF8C42;
 }
 
 .chatbox-close-chat {
@@ -127,9 +131,10 @@
     color: white;
     transform: scale(1.1);
 }
-.chat-bot-div{
+
+.chat-bot-div {
     padding: 1rem 1.5rem;
-    background: rgba(255, 255, 255, 0.05);
+    background: #3E3E3E; /* Greyish background */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
@@ -153,6 +158,7 @@
         padding: 1rem;
     }
 }
-.more-vert-icon:hover{
+
+.more-vert-icon:hover {
     cursor: pointer;
 }

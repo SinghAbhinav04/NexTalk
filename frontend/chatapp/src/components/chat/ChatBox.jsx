@@ -245,9 +245,8 @@ function ChatBox() {
                         {isChatOptionsPoppedup && (
                             <div className='chat-options-popup'>
                                 <div>Block</div>
-                                <div className='chatbox-close-chat'>
                                 <CloseIcon className="close-icon" onClick={handleCloseChat} />
-                                </div>
+                            
                             </div>
                         )}
                 </div>

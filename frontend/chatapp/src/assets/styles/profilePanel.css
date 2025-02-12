@@ -1,4 +1,3 @@
-
 .profile-panel {
     border-radius: 12px;
     padding: 20px;
@@ -16,31 +15,30 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    border: 3px solid #6c63ff;
+    border: 3px solid #FF7F32; /* Orange-ish border */
     object-fit: cover;
     margin-bottom: 15px;
 }
 
-
-.user-profile button{
+.user-profile button {
     background-color: none;
     background: none;
     border: none;
     outline: none;
-    color:white;
-    
+    color: white;
 }
-.user-profile button:hover{
+
+.user-profile button:hover {
     cursor: pointer;
 }
 
 .user-profile div:not(.file-upload) {
     margin: 10px 0;
     padding: 10px;
-    background-color: #1f1f2f;
+    background-color: #1f1f2f; /* Greyish background */
     border-radius: 6px;
     font-size: 14px;
-    color: #b0b0b0;
+    color: #b0b0b0; /* Light greyish text */
     width: 100%;
     text-align: left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -63,7 +61,7 @@
 .custom-file-label {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #1e1e2f;
+    background-color: #2b2b3c; /* Dark grey background */
     color: #fff;
     border: 1px solid #555;
     border-radius: 6px;
@@ -74,15 +72,16 @@
 }
 
 .custom-file-label:hover {
-    background-color: #2b2b3c;
+    background-color: #3a3a4b; /* Darker greyish hover background */
     transform: scale(1.02);
 }
-.user-profile button{
+
+.user-profile button {
     margin-top: 10px;
     margin-left: 15px;
     display: inline-block;
     padding: 10px 15px;
-    background-color: #1e1e2f;
+    background-color: #3c3c40; /* Dark grey background */
     color: #fff;
     border: 1px solid #555;
     border-radius: 6px;
@@ -91,10 +90,67 @@
     width: 100%;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
-.user-profile button:hover{
-    background-color: #2b2b3c;
+
+.user-profile button:hover {
+    background-color: #3a3a4b; /* Darker greyish hover background */
     transform: scale(1.02);
 }
+
+.user-profile div:not(.file-upload) {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #2b2b2f; /* Medium grey background */
+    border-radius: 6px;
+    font-size: 14px;
+    color: #d0d0d0; /* Light greyish text */
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.user-profile div:not(.file-upload):hover {
+    background-color: #3a3a3f; /* Slightly darker grey background on hover */
+}
+
+.user-profile button {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2b2b2f; /* Medium grey background */
+    color: #d0d0d0; /* Light greyish text */
+    border: 1px solid #555555; /* Dark grey border */
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.user-profile button:hover {
+    background-color: #3a3a3f; /* Slightly darker grey background on hover */
+    transform: scale(1.02);
+}
+
+.custom-file-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2b2b2f; /* Medium grey background */
+    color: #d0d0d0; /* Light greyish text */
+    border: 1px solid #555555; /* Dark grey border */
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-file-label:hover {
+    background-color: #3a3a3f; /* Slightly darker greyish hover background */
+    transform: scale(1.02);
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -118,4 +174,3 @@
         padding: 8px;
     }
 }
-

@@ -5,8 +5,8 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import IconButton from '@mui/material/IconButton';
 import axios from 'axios';
-import image1 from '../../assets/image4.jpeg';
-import image3 from '../../assets/image9.jpeg';
+import image1 from '../../assets/side2.jpg';
+import image3 from '../../assets/side4.jpg';
 
 function Signup() {
     const [firstName, setFirstName] = useState('');

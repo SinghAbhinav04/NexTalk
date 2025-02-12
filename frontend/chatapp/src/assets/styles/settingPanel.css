@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1e1e2f;
-    color: #ffffff;
+    background-color: #1a1a1a; /* Blackish background */
+    color: #f4f4f6; /* Whitish text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #333333; /* Greyish background */
 }
 
 .settings-panel span {
@@ -24,22 +25,23 @@ body {
     cursor: pointer;
     padding: 10px 15px;
     border-radius: 6px;
-    color: #ffffff;
+    color: #f4f4f6; /* Whitish text */
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .settings-panel span:hover {
+    background-color: rgba(255, 138, 0, 0.1); /* Light orange-ish background on hover */
     transform: scale(1.01);
 }
 
 .settings-panel .MuiSvgIcon-root {
     font-size: 36px;
-    color: #ffffff;
+    color: #f4f4f6; /* Whitish icons */
     cursor: pointer;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .settings-panel .MuiSvgIcon-root:hover {
-    color: #ff5555;
+    color: #ff8a00; /* Orange-ish icon color on hover */
     transform: scale(1.01);
 }
