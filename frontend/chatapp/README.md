@@ -29,25 +29,25 @@ The frontend consists of **three main sections**:
 Here are the UI previews of NexTalk:
 
 1. **Signup Page**  
-   ![Signup Page](frontend/chatapp/screenshots/signup.png)
+   ![Signup Page](screenshots/signup.png)
    
 2. **Home Page Layout**  
-   ![Home Page](frontend/chatapp/screenshots/homepage.png)
+   ![Home Page](screenshots/homepage.png)
    
 3. **Search Panel**  
-   ![Search Panel](frontend/chatapp/screenshots/search.png)
+   ![Search Panel](screenshots/search.png)
    
 4. **Chat Box**  
-   ![Chat Box](frontend/chatapp/screenshots/chatbox.png)
+   ![Chat Box](screenshots/chatbox.png)
    
 5. **Chatbot UI**  
-   ![Chatbot UI](frontend/chatapp/screenshots/chatbot.png)
+   ![Chatbot UI](screenshots/chatbot.png)
    
 6. **Profile Management Panel**  
-   ![Profile Management](frontend/chatapp/screenshots/profile.png)
+   ![Profile Management](screenshots/profile.png)
    
 7. **Add User Popup**  
-   ![Add User Popup](frontend/chatapp/screenshots/add.png)
+   ![Add User Popup](screenshots/add.png)
 
 
 
